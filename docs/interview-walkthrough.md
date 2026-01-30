@@ -125,7 +125,8 @@ Examples of evolution:
 - Additional data services added without impacting the platform
 - Multiple application teams deploying independently
 - Observability integrations extended to external tools
-- The same structure adapted to other cloud providers
+- The same reasoning applies whether the underlying platform is AWS, Azure, or GCP;
+the structure and intent remain constant even as services change.
 
 The structure scales with the organization.
 
