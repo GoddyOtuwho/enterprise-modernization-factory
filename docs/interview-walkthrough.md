@@ -119,16 +119,18 @@ Stacks that affect more systems change less frequently and with more rigor.
 
 ## How This Architecture Evolves
 
-This design is intentionally **not static**.
+This design is intentionally not static and is expected to evolve as organizational
+needs, workloads, and operational maturity change.
 
-Examples of evolution:
-- Additional data services added without impacting the platform
-- Multiple application teams deploying independently
-- Observability integrations extended to external tools
-- The same reasoning applies whether the underlying platform is AWS, Azure, or GCP;
-the structure and intent remain constant even as services change.
+Examples of evolution include:
+- Additional data services added without impacting the platform or applications
+- Multiple application teams deploying independently without coordination overhead
+- Observability integrations extended to external APM, logging, or SIEM tools
+- The same reasoning applied across AWS, Azure, or GCP—the structure and intent
+  remain constant even as specific services change
 
-The structure scales with the organization.
+The architecture scales not just in size, but in **organizational complexity**,
+supporting more teams, workloads, and governance requirements over time.
 
 ---
 
