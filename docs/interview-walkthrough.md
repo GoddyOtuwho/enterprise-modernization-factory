@@ -11,7 +11,7 @@ modernization thinking.
 
 ---
 
-## How to Approach This Architecture
+## How to Reason About the Architecture
 
 When discussing or reviewing this architecture, the goal is not to list tools,
 but to explain **how risk is reduced, ownership is clarified, and delivery is
