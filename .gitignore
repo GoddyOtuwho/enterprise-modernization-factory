@@ -1,0 +1,8 @@
+'*.tfstate
+*.terraform
+.env
+.idea/
+*.log
+credentials/*
+.DS_Store
+node_modules/
