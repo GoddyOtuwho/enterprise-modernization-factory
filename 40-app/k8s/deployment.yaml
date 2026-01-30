@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: modernization-app
+  namespace: modernization
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: modernization-app
+  template:
+    metadata:
+      labels:
+        app: modernization-app
+    spec:
+      containers:
+        - name: app
+          image: REPLACE_WITH_ECR_IMAGE
+          ports:
+            - containerPort: 8080
